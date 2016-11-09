@@ -5,7 +5,7 @@ A jQuery carousel plugin. Another one. This is super simple and does but one job
 ## Usage
 
 1. Put `infinite-carousel.js` somewhere in your project and point to it. (`index.html` has an example if you're stuck!)
-1. Stick some repeatable list type markup
+1. Stick some repeatable list type markup in your html
 1. Define your (optional) options
 1. Init the plugin
 1. Watch in wonder as it just works! :p
