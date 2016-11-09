@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.list-hz {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0;
+            text-align: center;
+        }
+
+        ul.list-hz li {
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+            padding: 10px;
+            margin: 10px;
+            font-size: 14px;
+            text-align: left;
+            background: #fafaf0;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="infinite-carousel list-hz">
+        <li>
+            <h1>Slide 01</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, a!</p>
+        </li>
+        <li>
+            <h1>Slide 02</h1>
+            <p>Qui et, sed aspernatur dignissimos est id nam, sapiente veniam.</p>
+        </li>
+        <li>
+            <h1>Slide 03</h1>
+            <p>Hic ut eaque maxime dolorem quis autem id, possimus architecto?</p>
+        </li>
+        <li>
+            <h1>Slide 04</h1>
+            <p>Modi ducimus quisquam nobis architecto odio! Omnis dolorem, provident minus!</p>
+        </li>
+        <li>
+            <h1>Slide 05</h1>
+            <p>Odio dolorem, dolor labore soluta aliquam voluptas, ipsum quibusdam culpa!</p>
+        </li>
+        <li>
+            <h1>Slide 06</h1>
+            <p>Excepturi, dolor, dolorum. Ab laboriosam architecto reprehenderit voluptas quibusdam, neque.</p>
+        </li>
+        <li>
+            <h1>Slide 07</h1>
+            <p>Illo facere, eaque magni sapiente accusantium ex aspernatur beatae quod?</p>
+        </li>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="infinite-carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            let options = {
+                speed: 3000,
+                delay: 3000,
+                ease: 'linear'
+            }
+
+            $('.infinite-carousel').infinitecarousel(options)
+        })
+    </script>
+</body>
+
+</html>
